@@ -1,0 +1,2103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NexGen Mobility Expo 2026 | CIRT Pune</title>
+    <meta
+      name="description"
+      content="India's Premier B2B Automotive Technology Expo & Conference. 24–25 March 2026, CIRT Campus, Bhosari MIDC, Pune."
+    />
+    <meta property="og:title" content="NexGen Mobility Expo 2026" />
+    <meta
+      property="og:description"
+      content="India's Premier B2B Automotive Technology Expo — 24–25 March 2026, CIRT Pune."
+    />
+    <meta
+      property="og:image"
+      content="https://nextgen-vert.vercel.app/nextgen2.jpeg"
+    />
+    <meta property="og:type" content="website" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "NexGen Mobility Expo 2026",
+        "startDate": "2026-03-24T10:00",
+        "endDate": "2026-03-25T17:00",
+        "location": {
+          "@type": "Place",
+          "name": "CIRT Campus",
+          "address": "Bhosari MIDC, Pune, Maharashtra"
+        },
+        "organizer": { "@type": "Organization", "name": "CIRT" }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/lucide@0.344.0/dist/umd/lucide.min.js"></script>
+    <style>
+      :root {
+        --sums-primary: #1e40af;
+        --sums-secondary: #f97316;
+        --sums-gray-light: #f3f4f6;
+        --sums-gray-medium: #e5e7eb;
+        --sums-gray-dark: #6b7280;
+        --sums-text-dark: #111827;
+        --sums-white: #ffffff;
+        --accent: #2563eb;
+        --accent-light: #3b82f6;
+        --accent-pale: #eff6ff;
+        --accent-border: #bfdbfe;
+        --purple: #7c3aed;
+        --orange: #ea580c;
+        --text-dark: #0f172a;
+        --text-mid: #334155;
+        --text-muted: #64748b;
+        --text-faint: #94a3b8;
+        --bg-white: #ffffff;
+        --bg-light: #f8fafc;
+        --bg-mid: #f1f5f9;
+        --border: #e2e8f0;
+        --border-strong: #cbd5e1;
+        --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.06);
+        --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.08);
+        --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.1);
+        --radius: 16px;
+        --radius-sm: 10px;
+        --transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+        font-size: 16px;
+      }
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          sans-serif;
+        background: var(--bg-white);
+        color: var(--text-dark);
+        overflow-x: hidden;
+        line-height: 1.7;
+      }
+
+      /* PROGRESS */
+      .expo-show-progress {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 3px;
+        background: linear-gradient(90deg, #7c3aed, #2563eb);
+        width: 0%;
+        z-index: 9999;
+        transition: width 0.1s;
+      }
+
+      /* TOP BAR */
+      .sums-may-nav-top-bar {
+        background: var(--sums-gray-light);
+        border-bottom: 1px solid var(--sums-gray-medium);
+        padding: 0.75rem 0;
+        font-size: 0.875rem;
+      }
+      .sums-may-nav-wrapper {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 2rem;
+      }
+      .sums-may-nav-top-bar .sums-may-nav-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .sums-may-nav-top-links {
+        display: flex;
+        list-style: none;
+        gap: 1.5rem;
+        margin: 0;
+      }
+      .sums-may-nav-top-links a {
+        color: #0d3cd7;
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+      .sums-may-nav-top-links a:hover {
+        color: var(--sums-primary);
+      }
+      .sums-may-nav-visitor {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-size: 0.75rem;
+        color: var(--sums-gray-dark);
+      }
+
+      /* BANNER */
+      .sums-may-nav-banner-section {
+        background: var(--sums-white);
+        padding: 1.5rem 0;
+        border-bottom: 2px solid var(--sums-gray-medium);
+      }
+      .sums-may-nav-banner-img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      /* MAIN NAV */
+      .sums-may-nav-main {
+        background: #ffa501;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+      .sums-may-nav-menu {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+      }
+      .sums-may-nav-menu > li {
+        position: relative;
+      }
+      .sums-may-nav-menu > li > a {
+        display: block;
+        padding: 1rem 1.25rem;
+        color: #140303;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.025em;
+        white-space: nowrap;
+      }
+      .sums-may-nav-menu > li > a:hover {
+        background: rgba(255, 255, 255, 0.15);
+      }
+      .sums-may-nav-highlight {
+        background: rgba(255, 255, 255, 0.25);
+      }
+      .sums-may-nav-submenu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        z-index: 2000;
+        left: 0;
+        background: var(--sums-white);
+        min-width: 250px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        list-style: none;
+        padding: 0.5rem 0;
+        border-radius: 4px;
+      }
+      .sums-may-nav-dropdown:hover .sums-may-nav-submenu {
+        display: block;
+      }
+      .sums-may-nav-submenu li a {
+        display: block;
+        padding: 0.75rem 1.5rem;
+        color: var(--sums-text-dark);
+        text-decoration: none;
+        font-size: 0.875rem;
+      }
+      .sums-may-nav-submenu li a:hover {
+        background: var(--sums-gray-light);
+        color: var(--sums-primary);
+      }
+      .sums-may-nav-mobile-toggle {
+        display: none;
+        flex-direction: column;
+        gap: 4px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0.75rem;
+      }
+      .sums-may-nav-mobile-toggle span {
+        width: 24px;
+        height: 3px;
+        background: var(--sums-white);
+        border-radius: 2px;
+      }
+
+      /* HERO */
+      .expo-show-hero {
+        background: linear-gradient(
+          135deg,
+          #0f172a 0%,
+          #1e1b4b 40%,
+          #312e81 70%,
+          #1e40af 100%
+        );
+        padding: 5rem 2rem 4rem;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+      .expo-show-hero-inner {
+        max-width: 900px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+      }
+      .expo-show-hero-logo {
+        /* height: 80px; */
+        margin-bottom: 1.5rem;
+        /* filter: brightness(1.1); */
+      }
+      .expo-show-hero-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: rgba(124, 58, 237, 0.3);
+        border: 1px solid rgba(124, 58, 237, 0.5);
+        color: #c4b5fd;
+        padding: 0.4rem 1rem;
+        border-radius: 50px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        margin-bottom: 1.5rem;
+      }
+      .expo-show-hero-badge-dot {
+        width: 8px;
+        height: 8px;
+        background: #a78bfa;
+        border-radius: 50%;
+        animation: pulse 1.5s infinite;
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.4;
+        }
+      }
+      .expo-show-hero h1 {
+        font-size: clamp(2rem, 5vw, 3.2rem);
+        font-weight: 800;
+        color: #fff;
+        line-height: 1.2;
+        margin-bottom: 0.75rem;
+      }
+      .expo-show-hero h1 span {
+        color: #a78bfa;
+      }
+      .expo-show-hero-meta {
+        color: #94a3b8;
+        font-size: 1.05rem;
+        margin-bottom: 0.5rem;
+      }
+      .expo-show-hero-meta strong {
+        color: #e2e8f0;
+      }
+      .expo-show-hero-venue {
+        color: #a78bfa;
+        font-weight: 600;
+        margin-bottom: 2.5rem;
+        font-size: 0.95rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4rem;
+      }
+      .expo-show-hero-venue svg {
+        stroke: #a78bfa;
+      }
+
+      /* COUNTDOWN */
+      .expo-show-countdown {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-bottom: 2.5rem;
+        flex-wrap: wrap;
+      }
+      .expo-show-countdown-item {
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: 14px;
+        padding: 1rem 1.5rem;
+        min-width: 80px;
+        text-align: center;
+        backdrop-filter: blur(10px);
+      }
+      .expo-show-countdown-num {
+        font-size: 2.2rem;
+        font-weight: 800;
+        color: #fff;
+        display: block;
+        line-height: 1;
+      }
+      .expo-show-countdown-label {
+        font-size: 0.7rem;
+        color: #94a3b8;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-top: 0.3rem;
+        display: block;
+      }
+
+      /* BUTTONS */
+      .expo-show-cta-row {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 3rem;
+      }
+      .expo-show-btn-primary {
+        background: linear-gradient(135deg, #7c3aed, #2563eb);
+        color: #fff;
+        padding: 0.9rem 2rem;
+        border-radius: 50px;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 0.95rem;
+        transition: var(--transition);
+        box-shadow: 0 4px 20px rgba(124, 58, 237, 0.4);
+        display: inline-block;
+      }
+      .expo-show-btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 30px rgba(124, 58, 237, 0.5);
+      }
+      .expo-show-btn-secondary {
+        background: transparent;
+        color: #fff;
+        padding: 0.9rem 2rem;
+        border-radius: 50px;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 0.95rem;
+        border: 2px solid rgba(255, 255, 255, 0.4);
+        transition: var(--transition);
+        display: inline-block;
+      }
+      .expo-show-btn-secondary:hover {
+        background: rgba(255, 255, 255, 0.1);
+        transform: translateY(-2px);
+      }
+
+      /* STATS */
+      .expo-show-stats {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+      .expo-show-stat {
+        text-align: center;
+      }
+      .expo-show-stat-num {
+        font-size: 1.8rem;
+        font-weight: 800;
+        color: #fff;
+        display: block;
+      }
+      .expo-show-stat-label {
+        font-size: 0.75rem;
+        color: #94a3b8;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+      }
+
+      /* PARTNERS STRIP */
+      .expo-show-partners-strip {
+        background: var(--bg-white);
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+        padding: 1.75rem 2rem;
+        text-align: center;
+      }
+      .expo-show-partners-strip p {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--text-faint);
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+      .expo-show-partners-img {
+        max-width: 720px;
+        width: 90%;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: var(--shadow-sm);
+      }
+
+      /* SECTION */
+      .expo-show-section {
+        padding: 4rem 2rem;
+      }
+      .expo-show-section-inner {
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      .expo-show-section-alt {
+        background: var(--bg-light);
+      }
+      .expo-show-section-title {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+      .expo-show-section-title h2 {
+        font-size: clamp(1.6rem, 3vw, 2.2rem);
+        font-weight: 800;
+        color: var(--text-dark);
+        margin-bottom: 0.5rem;
+      }
+      .expo-show-section-title h2 span {
+        color: var(--purple);
+      }
+      .expo-show-section-title p {
+        color: var(--text-muted);
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      /* VIP */
+      .expo-show-vip {
+        background: linear-gradient(135deg, #1e1b4b, #312e81);
+        padding: 4rem 2rem;
+      }
+      .expo-show-vip-inner {
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .expo-show-vip-inner h2 {
+        color: #fff;
+        font-size: clamp(1.5rem, 3vw, 2rem);
+        font-weight: 800;
+        margin-bottom: 0.5rem;
+      }
+      .expo-show-vip-sub {
+        color: #a5b4fc;
+        margin-bottom: 2.5rem;
+      }
+      .expo-show-vip-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1rem;
+      }
+      .expo-show-vip-card {
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: var(--radius-sm);
+        padding: 1.25rem 1.25rem 1.25rem 1rem;
+        text-align: left;
+        backdrop-filter: blur(8px);
+        display: flex;
+        align-items: flex-start;
+        gap: 0.875rem;
+      }
+      .expo-show-vip-icon {
+        width: 36px;
+        height: 36px;
+        background: rgba(165, 180, 252, 0.15);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+      .expo-show-vip-icon svg {
+        stroke: #a5b4fc;
+        width: 18px;
+        height: 18px;
+      }
+      .expo-show-vip-card-text {
+        color: #e0e7ff;
+        font-size: 0.875rem;
+        font-weight: 500;
+        line-height: 1.4;
+      }
+
+      /* FOCUS AREAS */
+      .expo-show-focus-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.25rem;
+      }
+      .expo-show-focus-card {
+        background: var(--bg-white);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        overflow: hidden;
+        transition: var(--transition);
+        display: flex;
+        flex-direction: column;
+      }
+      .expo-show-focus-card:hover {
+        border-color: #a78bfa;
+        box-shadow:
+          0 0 0 3px rgba(124, 58, 237, 0.08),
+          var(--shadow-md);
+        transform: translateY(-3px);
+      }
+      .expo-show-focus-img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        display: block;
+      }
+      .expo-show-focus-body {
+        padding: 1.25rem;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .expo-show-focus-day {
+        display: inline-block;
+        font-size: 0.68rem;
+        font-weight: 700;
+        padding: 0.2rem 0.65rem;
+        border-radius: 50px;
+        margin-bottom: 0.6rem;
+      }
+      .expo-show-focus-day.day1 {
+        background: #ede9fe;
+        color: #7c3aed;
+      }
+      .expo-show-focus-day.day2 {
+        background: #dbeafe;
+        color: #1e40af;
+      }
+      .expo-show-focus-day.both {
+        background: linear-gradient(90deg, #ede9fe, #dbeafe);
+        color: #4338ca;
+      }
+      .expo-show-focus-body h3 {
+        font-size: 0.975rem;
+        font-weight: 700;
+        color: var(--text-dark);
+        margin-bottom: 0.4rem;
+      }
+      .expo-show-focus-body p {
+        font-size: 0.82rem;
+        color: var(--text-muted);
+        line-height: 1.55;
+        flex: 1;
+        margin-bottom: 0.75rem;
+      }
+      .expo-show-focus-session {
+        font-size: 0.75rem;
+        color: var(--purple);
+        font-weight: 600;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        margin-top: auto;
+      }
+      .expo-show-focus-session:hover {
+        text-decoration: underline;
+      }
+
+      /* AGENDA */
+      .expo-show-agenda-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+      .expo-show-agenda-day {
+        background: var(--bg-white);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        overflow: hidden;
+        box-shadow: var(--shadow-sm);
+      }
+      .expo-show-agenda-header {
+        padding: 1.25rem 1.5rem;
+      }
+      .expo-show-agenda-header.day1 {
+        background: linear-gradient(135deg, #7c3aed, #4f46e5);
+      }
+      .expo-show-agenda-header.day2 {
+        background: linear-gradient(135deg, #1e40af, #0891b2);
+      }
+      .expo-show-agenda-header h3 {
+        color: #fff;
+        font-size: 1.05rem;
+        font-weight: 700;
+      }
+      .expo-show-agenda-header p {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 0.8rem;
+      }
+      .expo-show-agenda-sessions {
+        padding: 1.25rem 1.5rem;
+      }
+      .expo-show-session-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.75rem;
+        padding: 0.7rem 0;
+        border-bottom: 1px solid var(--border);
+      }
+      .expo-show-session-item:last-child {
+        border-bottom: none;
+      }
+      .expo-show-session-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--purple);
+        margin-top: 0.55rem;
+        flex-shrink: 0;
+      }
+      .expo-show-session-text {
+        font-size: 0.875rem;
+        color: var(--text-mid);
+        font-weight: 500;
+      }
+
+      /* WHO SHOULD ATTEND */
+      .expo-show-attend-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1rem;
+      }
+      .expo-show-attend-card {
+        background: var(--bg-white);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-sm);
+        padding: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        transition: var(--transition);
+      }
+      .expo-show-attend-card:hover {
+        border-color: var(--accent-border);
+        box-shadow: var(--shadow-md);
+        transform: translateY(-2px);
+      }
+      .expo-show-attend-icon-wrap {
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+        background: var(--accent-pale);
+        border: 1px solid var(--accent-border);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+      .expo-show-attend-icon-wrap svg {
+        stroke: var(--accent);
+        width: 20px;
+        height: 20px;
+      }
+      .expo-show-attend-card p {
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: var(--text-mid);
+        line-height: 1.35;
+      }
+
+      /* DELEGATE FEE */
+      .expo-show-delegate-fee {
+        background: linear-gradient(135deg, #ede9fe, #dbeafe);
+        border: 2px solid #a5b4fc;
+        border-radius: var(--radius);
+        padding: 1.5rem 2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      .expo-show-delegate-fee h3 {
+        font-size: 1.8rem;
+        font-weight: 800;
+        color: var(--purple);
+        margin-bottom: 0.25rem;
+      }
+      .expo-show-delegate-fee p {
+        color: var(--text-mid);
+        font-size: 0.875rem;
+      }
+
+      /* FORM BOX */
+      .expo-show-form-box {
+        background: var(--bg-white);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 2rem;
+        text-align: center;
+        box-shadow: var(--shadow-sm);
+      }
+      .expo-show-form-box p {
+        color: var(--text-muted);
+        margin-bottom: 1.5rem;
+        font-size: 0.875rem;
+      }
+      .expo-show-form-note {
+        margin-top: 1rem;
+        font-size: 0.8rem;
+        color: var(--text-faint);
+      }
+      .expo-show-form-note a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      /* EXHIBITOR */
+      .expo-show-exhibit-box {
+        background: var(--bg-white);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 2.5rem;
+        box-shadow: var(--shadow-md);
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      .expo-show-exhibit-price {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: var(--purple);
+        margin-bottom: 0.25rem;
+      }
+      .expo-show-exhibit-price span {
+        font-size: 1rem;
+        color: var(--text-muted);
+        font-weight: 400;
+      }
+      .expo-show-exhibit-includes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.6rem;
+        margin: 1.5rem 0;
+      }
+      .expo-show-exhibit-item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.875rem;
+        color: var(--text-mid);
+      }
+      .expo-show-exhibit-item svg {
+        stroke: #059669;
+        width: 16px;
+        height: 16px;
+        flex-shrink: 0;
+      }
+      .expo-show-calc {
+        background: var(--bg-light);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-sm);
+        padding: 1.25rem;
+        margin-top: 1.5rem;
+      }
+      .expo-show-calc label {
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: var(--text-mid);
+        display: block;
+        margin-bottom: 0.5rem;
+      }
+      .expo-show-calc-row {
+        display: flex;
+        gap: 0.75rem;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .expo-show-calc input {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 0.5rem 0.75rem;
+        font-size: 0.9rem;
+        width: 120px;
+        outline: none;
+        font-family: inherit;
+      }
+      .expo-show-calc input:focus {
+        border-color: var(--purple);
+      }
+      .expo-show-calc-result {
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: var(--purple);
+      }
+
+      /* VENUE */
+      .expo-show-venue-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: start;
+      }
+      .expo-show-venue-info h3 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: var(--text-dark);
+        margin-bottom: 1rem;
+      }
+      .expo-show-travel-item {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.75rem 0;
+        border-bottom: 1px solid var(--border);
+        font-size: 0.875rem;
+        color: var(--text-mid);
+      }
+      .expo-show-travel-item svg {
+        stroke: var(--purple);
+        flex-shrink: 0;
+        width: 18px;
+        height: 18px;
+      }
+      .expo-show-map-embed {
+        background: var(--bg-mid);
+        border-radius: var(--radius);
+        overflow: hidden;
+        height: 300px;
+        border: 1px solid var(--border);
+      }
+      .expo-show-map-embed iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+
+      /* CONTACTS */
+      .expo-show-contacts-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1.5rem;
+      }
+      .expo-show-contact-card {
+        background: var(--bg-white);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 1.5rem;
+      }
+      .expo-show-contact-card.featured {
+        border-left: 3px solid var(--purple);
+      }
+      .expo-show-contact-label {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--text-faint);
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+      }
+      .expo-show-contact-label svg {
+        stroke: var(--text-faint);
+        width: 13px;
+        height: 13px;
+      }
+      .expo-show-contact-name {
+        font-size: 1rem;
+        font-weight: 700;
+        color: var(--text-dark);
+        margin-bottom: 0.2rem;
+      }
+      .expo-show-contact-role {
+        font-size: 0.8rem;
+        color: var(--purple);
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+      }
+      .expo-show-contact-row {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.85rem;
+        color: var(--text-mid);
+        margin-bottom: 0.3rem;
+      }
+      .expo-show-contact-row svg {
+        stroke: var(--text-faint);
+        width: 14px;
+        height: 14px;
+        flex-shrink: 0;
+      }
+      .expo-show-contact-row a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      /* FOOTER */
+      .expo-show-footer {
+        background: #0f172a;
+        color: #94a3b8;
+        padding: 3rem 2rem 0;
+      }
+      .expo-show-footer-inner {
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      .expo-show-footer-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 3rem;
+        padding-bottom: 2.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .expo-show-footer-logo {
+        height: 50px;
+        margin-bottom: 1rem;
+        filter: brightness(1.2);
+      }
+      .expo-show-footer-desc {
+        font-size: 0.875rem;
+        line-height: 1.7;
+        color: #64748b;
+        max-width: 300px;
+      }
+      .expo-show-footer-col h4 {
+        color: #e2e8f0;
+        font-size: 0.8rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+      }
+      .expo-show-footer-col ul {
+        list-style: none;
+      }
+      .expo-show-footer-col ul li {
+        margin-bottom: 0.5rem;
+      }
+      .expo-show-footer-col ul li a {
+        color: #64748b;
+        text-decoration: none;
+        font-size: 0.875rem;
+      }
+      .expo-show-footer-col ul li a:hover {
+        color: #a78bfa;
+      }
+      .sums-may-footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem 0;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+      .sums-may-copyright {
+        font-size: 0.8rem;
+        color: #475569;
+      }
+      .sums-may-footer-dev {
+        font-size: 0.75rem;
+        color: #334155;
+        margin-top: 0.2rem;
+      }
+      .sums-may-social-links {
+        display: flex;
+        gap: 0.75rem;
+      }
+      .sums-may-social-icon {
+        width: 36px;
+        height: 36px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.06);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #64748b;
+        transition: var(--transition);
+      }
+      .sums-may-social-icon:hover {
+        background: var(--purple);
+        color: #fff;
+      }
+      .sums-may-social-icon svg {
+        fill: currentColor;
+        width: 18px;
+        height: 18px;
+      }
+
+      @media (min-width: 1200px) {
+        .container {
+          width: 1200px;
+          margin: 0 auto;
+        }
+      }
+
+      /* RESPONSIVE */
+      @media (max-width: 900px) {
+        .expo-show-agenda-grid {
+          grid-template-columns: 1fr;
+        }
+        .expo-show-venue-grid {
+          grid-template-columns: 1fr;
+        }
+        .expo-show-footer-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      @media (max-width: 768px) {
+        .sums-may-nav-wrapper {
+          padding: 0 1rem;
+        }
+        .sums-may-nav-mobile-toggle {
+          display: flex;
+        }
+        .sums-may-nav-menu {
+          display: none;
+          flex-direction: column;
+          width: 100%;
+        }
+        .sums-may-nav-menu.active {
+          display: flex;
+        }
+        .sums-may-nav-submenu {
+          position: static;
+          box-shadow: none;
+          background: rgba(0, 0, 0, 0.1);
+        }
+        .sums-may-nav-dropdown.active .sums-may-nav-submenu {
+          display: block;
+        }
+        .expo-show-exhibit-includes {
+          grid-template-columns: 1fr;
+        }
+        .expo-show-footer-grid {
+          grid-template-columns: 1fr;
+        }
+        .expo-show-stats {
+          gap: 1rem;
+        }
+        .expo-show-countdown {
+          gap: 0.75rem;
+        }
+        .expo-show-countdown-item {
+          padding: 0.75rem 1rem;
+          min-width: 65px;
+        }
+        .expo-show-countdown-num {
+          font-size: 1.6rem;
+        }
+      }
+      @media (max-width: 480px) {
+        .sums-may-nav-top-bar .sums-may-nav-wrapper {
+          flex-direction: column;
+          gap: 0.75rem;
+        }
+        .expo-show-cta-row {
+          flex-direction: column;
+          align-items: center;
+        }
+        .expo-show-hero-logo {
+          height: 80px;
+          /* margin-bottom: 1.5rem; */
+          /* filter: brightness(1.1); */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="expo-show-progress" id="expoProgressBar"></div>
+
+      <!-- TOP BAR -->
+      <div class="sums-may-nav-top-bar">
+        <div class="sums-may-nav-wrapper">
+          <ul class="sums-may-nav-top-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <a href="http://49.248.120.2:8880/cirt_web" target="_blank"
+                >Online Sample Status</a
+              >
+            </li>
+          </ul>
+          <div class="sums-may-nav-visitor">
+            <b>VISITOR COUNT</b>
+            <img
+              src="https://www.counter12.com/img-59yx37Z9ax9Z9a57-3.gif"
+              alt="visitor counter"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- BANNER -->
+      <div class="sums-may-nav-banner-section">
+        <div class="sums-may-nav-wrapper">
+          <img
+            src="https://cirtindia.com/images/CIRT%20New%20Banner%20Multilingual.png"
+            alt="CIRT Banner"
+            usemap="#CIRTmap"
+            class="sums-may-nav-banner-img"
+          />
+          <map name="CIRTmap">
+            <area
+              shape="rect"
+              coords="7,7,272,160"
+              alt="CIRT"
+              href="index.html"
+            />
+            <area
+              shape="rect"
+              coords="930,3,1060,140"
+              alt="BNCAP"
+              href="https://www.bncap.in/"
+              target="_blank"
+            />
+            <area
+              shape="rect"
+              coords="960,7,1160,170"
+              alt="ASRTU"
+              href="http://www.asrtu.org/"
+              target="_blank"
+            />
+          </map>
+        </div>
+      </div>
+
+      <!-- MAIN NAV -->
+      <nav class="sums-may-nav-main">
+        <div class="sums-may-nav-wrapper">
+          <button
+            class="sums-may-nav-mobile-toggle"
+            aria-label="Menu"
+            aria-expanded="false"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="sums-may-nav-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li class="sums-may-nav-dropdown">
+              <a href="#">ABOUT US</a>
+              <ul class="sums-may-nav-submenu">
+                <li><a href="About_History.html">HISTORY</a></li>
+                <li><a href="Faculty_Profile.html">FACULTY PROFILE</a></li>
+                <li>
+                  <a href="International_Collaboration.html"
+                    >INTERNATIONAL COLLABORATION</a
+                  >
+                </li>
+                <li>
+                  <a href="About_Awards_Recognition.html"
+                    >AWARDS AND RECOGNITION</a
+                  >
+                </li>
+                <li><a href="Quality_Policy.html">QUALITY POLICY</a></li>
+                <li><a href="Related_Links.html">RELATED LINKS</a></li>
+              </ul>
+            </li>
+            <li class="sums-may-nav-dropdown">
+              <a href="#">TESTING</a>
+              <ul class="sums-may-nav-submenu">
+                <li>
+                  <a href="http://49.248.120.2:8880/cirt_web" target="_blank"
+                    >Online Sample Status</a
+                  >
+                </li>
+                <li><a href="Lab_Tyre.html">TYRE LAB</a></li>
+                <li><a href="Lab_VCL.html">VCL LAB</a></li>
+                <li><a href="Lab_Electrical.html">ELECTRICAL LAB</a></li>
+                <li><a href="Lab_Polymer.html">POLYMER LAB</a></li>
+                <li><a href="Lab_Photometric.html">PHOTOMETRIC LAB</a></li>
+                <li><a href="Lab_Auto.html">AUTO LAB</a></li>
+                <li>
+                  <a href="Lab_StructuralDynamic.html"
+                    >STRUCTURAL DYNAMIC LAB</a
+                  >
+                </li>
+                <li><a href="Lab_Environmental.html">ENVIRONMENTAL LAB</a></li>
+                <li><a href="Lab_Petroleum.html">PETROLEUM LAB</a></li>
+                <li><a href="Lab_Metallurgical.html">METALLURGICAL LAB</a></li>
+                <li><a href="Lab_Chemical.html">CHEMICAL LAB</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://www.bncap.in/" target="_blank">BHARAT NCAP</a>
+            </li>
+            <li>
+              <a href="Safety_Homologation.html">SAFETY &amp; HOMOLOGATION</a>
+            </li>
+            <li>
+              <a href="speed_limiting_device.html">SLD APPROVED STATUS</a>
+            </li>
+            <li><a href="Training_Services.html">TRAINING</a></li>
+            <li><a href="Consultancy_Services.html">CONSULTANCY</a></li>
+            <li>
+              <a href="Technical_Secretariat.html">TECHNICAL SECRETARIAT</a>
+            </li>
+            <li class="sums-may-nav-dropdown">
+              <a href="#">KNOWLEDGE CENTER</a>
+              <ul class="sums-may-nav-submenu">
+                <li><a href="Library.html">LIBRARY</a></li>
+                <li><a href="Publications.html">PUBLICATIONS</a></li>
+                <li><a href="dataBank.html">DATA BANK</a></li>
+              </ul>
+            </li>
+            <li><a href="tenderNotice.html">TENDER</a></li>
+            <li><a href="Career.html">CAREER</a></li>
+            <li><a href="GalleryNew.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li>
+              <a href="nexgen2026.html" class="sums-may-nav-highlight"
+                >NEXGEN EXPO 2026</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- HERO -->
+      <section class="expo-show-hero" id="home">
+        <div class="expo-show-hero-inner">
+          <img
+            src="https://nextgen-vert.vercel.app/nexgenlogo.png"
+            alt="NexGen Mobility Expo"
+            class="expo-show-hero-logo"
+          />
+          <div class="expo-show-hero-badge">
+            <span class="expo-show-hero-badge-dot"></span>
+            India's Premier B2B Automotive Technology Expo &amp; Conference
+          </div>
+          <h1>NexGen <span>Mobility Expo</span> 2026</h1>
+          <p class="expo-show-hero-meta"><strong>24–25 March 2026</strong></p>
+          <div class="expo-show-hero-venue">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            CIRT Campus, Bhosari MIDC, Pune, Maharashtra
+          </div>
+          <div class="expo-show-countdown" id="expoCountdown">
+            <div class="expo-show-countdown-item">
+              <span class="expo-show-countdown-num" id="cdDays">--</span
+              ><span class="expo-show-countdown-label">Days</span>
+            </div>
+            <div class="expo-show-countdown-item">
+              <span class="expo-show-countdown-num" id="cdHours">--</span
+              ><span class="expo-show-countdown-label">Hours</span>
+            </div>
+            <div class="expo-show-countdown-item">
+              <span class="expo-show-countdown-num" id="cdMins">--</span
+              ><span class="expo-show-countdown-label">Minutes</span>
+            </div>
+            <div class="expo-show-countdown-item">
+              <span class="expo-show-countdown-num" id="cdSecs">--</span
+              ><span class="expo-show-countdown-label">Seconds</span>
+            </div>
+          </div>
+          <div class="expo-show-cta-row">
+            <a href="#register" class="expo-show-btn-primary"
+              >Register as Delegate</a
+            >
+            <a href="#exhibit" class="expo-show-btn-secondary"
+              >Book Exhibition Space</a
+            >
+          </div>
+          <div class="expo-show-stats">
+            <div class="expo-show-stat">
+              <span class="expo-show-stat-num">100+</span
+              ><span class="expo-show-stat-label">Exhibitors</span>
+            </div>
+            <div class="expo-show-stat">
+              <span class="expo-show-stat-num">100+</span
+              ><span class="expo-show-stat-label">Industry Speakers</span>
+            </div>
+            <div class="expo-show-stat">
+              <span class="expo-show-stat-num">500+</span
+              ><span class="expo-show-stat-label">Delegates</span>
+            </div>
+            <div class="expo-show-stat">
+              <span class="expo-show-stat-num">3,000+</span
+              ><span class="expo-show-stat-label">Trade Visitors</span>
+            </div>
+            <div class="expo-show-stat">
+              <span class="expo-show-stat-num">5</span
+              ><span class="expo-show-stat-label">Focus Country Partners</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PARTNERS STRIP -->
+      <div class="expo-show-partners-strip">
+        <p>Organised By</p>
+        <img
+          src="https://nextgen-vert.vercel.app/nextgen2.jpeg"
+          alt="NexGen Mobility Expo Partners — CIRT, THEISTIC, AutoSIFU, WeSpark"
+          class="expo-show-partners-img"
+        />
+      </div>
+
+      <!-- VIP BUYER DELEGATION -->
+      <section class="expo-show-vip" id="vip">
+        <div class="expo-show-vip-inner">
+          <h2>Exclusive VIP Buyer Delegation</h2>
+          <p class="expo-show-vip-sub">
+            Confirmed government &amp; institutional buyers attending the expo
+          </p>
+          <div class="expo-show-vip-grid">
+            <div class="expo-show-vip-card">
+              <div class="expo-show-vip-icon">
+                <i data-lucide="building-2"></i>
+              </div>
+              <span class="expo-show-vip-card-text"
+                >Central Public Sector Enterprises (CPSUs / CPSEs)</span
+              >
+            </div>
+            <div class="expo-show-vip-card">
+              <div class="expo-show-vip-icon"><i data-lucide="bus"></i></div>
+              <span class="expo-show-vip-card-text"
+                >State Transport Departments</span
+              >
+            </div>
+            <div class="expo-show-vip-card">
+              <div class="expo-show-vip-icon"><i data-lucide="shield"></i></div>
+              <span class="expo-show-vip-card-text"
+                >State Police Departments</span
+              >
+            </div>
+            <div class="expo-show-vip-card">
+              <div class="expo-show-vip-icon">
+                <i data-lucide="landmark"></i>
+              </div>
+              <span class="expo-show-vip-card-text"
+                >Urban Local Bodies &amp; Municipal Corporations</span
+              >
+            </div>
+            <div class="expo-show-vip-card">
+              <div class="expo-show-vip-icon">
+                <i data-lucide="map-pin"></i>
+              </div>
+              <span class="expo-show-vip-card-text"
+                >Urban Development Departments</span
+              >
+            </div>
+            <div class="expo-show-vip-card">
+              <div class="expo-show-vip-icon">
+                <i data-lucide="hard-hat"></i>
+              </div>
+              <span class="expo-show-vip-card-text"
+                >Public Works Departments</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOCUS AREAS -->
+      <section class="expo-show-section" id="focus">
+        <div class="expo-show-section-inner">
+          <div class="expo-show-section-title">
+            <h2>Focus <span>Areas</span></h2>
+            <p>
+              Advancing automotive safety, innovation, and next-generation
+              vehicle technologies
+            </p>
+          </div>
+          <div class="expo-show-focus-grid">
+            <div class="expo-show-focus-card">
+              <img
+                src="https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Automotive Cyber Security"
+                class="expo-show-focus-img"
+              />
+              <div class="expo-show-focus-body">
+                <span class="expo-show-focus-day both">Day 1 + Day 2</span>
+                <h3>Automotive Cyber Security</h3>
+                <p>
+                  UN R155, AIS-189/190 compliance and SDV architecture for
+                  connected vehicles.
+                </p>
+                <a href="#agenda" class="expo-show-focus-session"
+                  >&#9658; Cybersecurity Roadmap &amp; SDV · CRA</a
+                >
+              </div>
+            </div>
+            <div class="expo-show-focus-card">
+              <img
+                src="https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Bharat NCAP 2.0"
+                class="expo-show-focus-img"
+              />
+              <div class="expo-show-focus-body">
+                <span class="expo-show-focus-day day1">Day 1</span>
+                <h3>Bharat NCAP 2.0</h3>
+                <p>
+                  Next-gen crash testing and safety rating standards tailored
+                  for Indian roads.
+                </p>
+                <a href="#agenda" class="expo-show-focus-session"
+                  >&#9658; Advanced Safety Testing &amp; Bharat NCAP 2.0</a
+                >
+              </div>
+            </div>
+            <div class="expo-show-focus-card">
+              <img
+                src="https://images.pexels.com/photos/1119796/pexels-photo-1119796.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Functional Safety"
+                class="expo-show-focus-img"
+              />
+              <div class="expo-show-focus-body">
+                <span class="expo-show-focus-day day1">Day 1</span>
+                <h3>Functional Safety &amp; Road Safety</h3>
+                <p>
+                  ISO 26262 compliance and Safety Management Systems for OEMs
+                  and fleets.
+                </p>
+                <a href="#agenda" class="expo-show-focus-session"
+                  >&#9658; Safety &amp; SMS Implementation</a
+                >
+              </div>
+            </div>
+            <div class="expo-show-focus-card">
+              <img
+                src="https://images.pexels.com/photos/1755684/pexels-photo-1755684.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Bus Safety Compliance"
+                class="expo-show-focus-img"
+              />
+              <div class="expo-show-focus-body">
+                <span class="expo-show-focus-day day1">Day 1</span>
+                <h3>Bus Safety Compliance</h3>
+                <p>
+                  AIS-153, fire safety norms and emergency exit standards for
+                  public transport.
+                </p>
+                <a href="#agenda" class="expo-show-focus-session"
+                  >&#9658; Safer Public Transport &amp; Bus Safety</a
+                >
+              </div>
+            </div>
+            <div class="expo-show-focus-card">
+              <img
+                src="https://images.pexels.com/photos/3862634/pexels-photo-3862634.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="V2V Communication"
+                class="expo-show-focus-img"
+              />
+              <div class="expo-show-focus-body">
+                <span class="expo-show-focus-day day1">Day 1</span>
+                <h3>Vehicle-to-Vehicle Communication (V2V)</h3>
+                <p>
+                  C-V2X, DSRC protocols and connected mobility ecosystem for
+                  smart roads.
+                </p>
+                <a href="#agenda" class="expo-show-focus-session"
+                  >&#9658; Connected Vehicle Technologies</a
+                >
+              </div>
+            </div>
+            <div class="expo-show-focus-card">
+              <img
+                src="https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Advance Automotive Testing"
+                class="expo-show-focus-img"
+              />
+              <div class="expo-show-focus-body">
+                <span class="expo-show-focus-day day1">Day 1</span>
+                <h3>Advance Automotive Testing</h3>
+                <p>
+                  EMC, homologation, EV battery and component validation for
+                  global markets.
+                </p>
+                <a href="#agenda" class="expo-show-focus-session"
+                  >&#9658; Global Certification &amp; Testing</a
+                >
+              </div>
+            </div>
+            <div class="expo-show-focus-card">
+              <img
+                src="https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Innovation and Technology"
+                class="expo-show-focus-img"
+              />
+              <div class="expo-show-focus-body">
+                <span class="expo-show-focus-day day2">Day 2</span>
+                <h3>Innovation &amp; Technology Advancement</h3>
+                <p>
+                  AI in automotive, sustainable and circular manufacturing for
+                  future mobility.
+                </p>
+                <a href="#agenda" class="expo-show-focus-session"
+                  >&#9658; AI in Automotive · Sustainable Mfg</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- AGENDA -->
+      <section class="expo-show-section expo-show-section-alt" id="agenda">
+        <div class="expo-show-section-inner">
+          <div class="expo-show-section-title">
+            <h2>Conference <span>Agenda</span></h2>
+            <p>
+              10+ high-impact sessions, workshops and technical training
+              programs
+            </p>
+          </div>
+          <div class="expo-show-agenda-grid">
+            <div class="expo-show-agenda-day">
+              <div class="expo-show-agenda-header day1">
+                <h3>Day 1 — 24 March 2026</h3>
+                <p>10:00 AM – 5:00 PM</p>
+              </div>
+              <div class="expo-show-agenda-sessions">
+                <div class="expo-show-session-item">
+                  <div class="expo-show-session-dot"></div>
+                  <span class="expo-show-session-text"
+                    >Cybersecurity Roadmap &amp; SDV</span
+                  >
+                </div>
+                <div class="expo-show-session-item">
+                  <div class="expo-show-session-dot"></div>
+                  <span class="expo-show-session-text"
+                    >Safety &amp; SMS Implementation</span
+                  >
+                </div>
+                <div class="expo-show-session-item">
+                  <div class="expo-show-session-dot"></div>
+                  <span class="expo-show-session-text"
+                    >Advanced Safety Testing &amp; Bharat NCAP 2.0</span
+                  >
+                </div>
+                <div class="expo-show-session-item">
+                  <div class="expo-show-session-dot"></div>
+                  <span class="expo-show-session-text"
+                    >Connected Vehicle Technologies</span
+                  >
+                </div>
+                <div class="expo-show-session-item">
+                  <div class="expo-show-session-dot"></div>
+                  <span class="expo-show-session-text"
+                    >Global Certification &amp; Testing</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="expo-show-agenda-day">
+              <div class="expo-show-agenda-header day2">
+                <h3>Day 2 — 25 March 2026</h3>
+                <p>11:00 AM – 4:00 PM</p>
+              </div>
+              <div class="expo-show-agenda-sessions">
+                <div class="expo-show-session-item">
+                  <div
+                    class="expo-show-session-dot"
+                    style="background: var(--accent)"
+                  ></div>
+                  <span class="expo-show-session-text"
+                    >Global Manufacturing &amp; Engineering Hub</span
+                  >
+                </div>
+                <div class="expo-show-session-item">
+                  <div
+                    class="expo-show-session-dot"
+                    style="background: var(--accent)"
+                  ></div>
+                  <span class="expo-show-session-text"
+                    >Cyber Resilience Act (CRA)</span
+                  >
+                </div>
+                <div class="expo-show-session-item">
+                  <div
+                    class="expo-show-session-dot"
+                    style="background: var(--accent)"
+                  ></div>
+                  <span class="expo-show-session-text">AI in Automotive</span>
+                </div>
+                <div class="expo-show-session-item">
+                  <div
+                    class="expo-show-session-dot"
+                    style="background: var(--accent)"
+                  ></div>
+                  <span class="expo-show-session-text"
+                    >Sustainable Manufacturing</span
+                  >
+                </div>
+                <div class="expo-show-session-item">
+                  <div
+                    class="expo-show-session-dot"
+                    style="background: var(--accent)"
+                  ></div>
+                  <span class="expo-show-session-text"
+                    >Circular Automotive Economy</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHO SHOULD ATTEND -->
+      <section class="expo-show-section" id="attend">
+        <div class="expo-show-section-inner">
+          <div class="expo-show-section-title">
+            <h2>Who Should <span>Attend</span></h2>
+            <p>The right audience for partnerships, procurement and policy</p>
+          </div>
+          <div class="expo-show-attend-grid">
+            <div class="expo-show-attend-card">
+              <div class="expo-show-attend-icon-wrap">
+                <i data-lucide="factory"></i>
+              </div>
+              <p>Automotive OEMs &amp; Manufacturers</p>
+            </div>
+            <div class="expo-show-attend-card">
+              <div class="expo-show-attend-icon-wrap">
+                <i data-lucide="flask-conical"></i>
+              </div>
+              <p>Engineering, R&amp;D &amp; Procurement Heads</p>
+            </div>
+            <div class="expo-show-attend-card">
+              <div class="expo-show-attend-icon-wrap">
+                <i data-lucide="layers"></i>
+              </div>
+              <p>Tier-1 &amp; Tier-2 Suppliers</p>
+            </div>
+            <div class="expo-show-attend-card">
+              <div class="expo-show-attend-icon-wrap">
+                <i data-lucide="shield-check"></i>
+              </div>
+              <p>AI &amp; Cybersecurity Leaders</p>
+            </div>
+            <div class="expo-show-attend-card">
+              <div class="expo-show-attend-icon-wrap">
+                <i data-lucide="truck"></i>
+              </div>
+              <p>Fleet &amp; Safety Buyers</p>
+            </div>
+            <div class="expo-show-attend-card">
+              <div class="expo-show-attend-icon-wrap">
+                <i data-lucide="landmark"></i>
+              </div>
+              <p>Government Transport Departments</p>
+            </div>
+            <div class="expo-show-attend-card">
+              <div class="expo-show-attend-icon-wrap">
+                <i data-lucide="handshake"></i>
+              </div>
+              <p>Dealers &amp; Channel Partners</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DELEGATE REGISTRATION -->
+      <section class="expo-show-section expo-show-section-alt" id="register">
+        <div class="expo-show-section-inner">
+          <div class="expo-show-section-title">
+            <h2>Delegate <span>Registration</span></h2>
+            <p>
+              Secure your seat at India's most focused automotive B2B conference
+            </p>
+          </div>
+          <div style="max-width: 580px; margin: 0 auto">
+            <div class="expo-show-delegate-fee">
+              <h3>
+                &#8377;15,000
+                <span
+                  style="
+                    font-size: 1rem;
+                    font-weight: 500;
+                    color: var(--text-mid);
+                  "
+                  >per person</span
+                >
+              </h3>
+              <p>
+                Includes all sessions, workshops, networking lunch &amp; expo
+                floor access (both days)
+              </p>
+            </div>
+            <div class="expo-show-form-box">
+              <p>Fill in the registration form to secure your delegate pass</p>
+              <a
+                href="REPLACE_WITH_GOOGLE_FORM_URL"
+                target="_blank"
+                class="expo-show-btn-primary"
+                >Open Registration Form</a
+              >
+              <p class="expo-show-form-note">
+                Contact: Vikram Pagare &mdash;
+                <a href="tel:+919867275102">+91 9867275102</a> &middot;
+                <a href="mailto:support@cirtindia.com">support@cirtindia.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXHIBITOR -->
+      <section class="expo-show-section" id="exhibit">
+        <div class="expo-show-section-inner">
+          <div class="expo-show-section-title">
+            <h2>Exhibit at <span>NexGen 2026</span></h2>
+            <p>
+              Put your brand in front of 3,000+ qualified trade visitors and
+              decision-makers
+            </p>
+          </div>
+          <div class="expo-show-exhibit-box">
+            <div class="expo-show-exhibit-price">
+              &#8377;12,000 <span>/ sq. mtr &middot; +18% GST</span>
+            </div>
+            <p
+              style="
+                color: var(--text-muted);
+                font-size: 0.875rem;
+                margin-bottom: 1rem;
+              "
+            >
+              Shell Space — minimum booking applies
+            </p>
+            <div class="expo-show-exhibit-includes">
+              <div class="expo-show-exhibit-item">
+                <i data-lucide="check-circle"></i> 1 Table
+              </div>
+              <div class="expo-show-exhibit-item">
+                <i data-lucide="check-circle"></i> 2 Chairs
+              </div>
+              <div class="expo-show-exhibit-item">
+                <i data-lucide="check-circle"></i> 3 Lights
+              </div>
+              <div class="expo-show-exhibit-item">
+                <i data-lucide="check-circle"></i> Power Connection
+              </div>
+              <div class="expo-show-exhibit-item">
+                <i data-lucide="check-circle"></i> 2 Exhibitor Passes
+              </div>
+              <div class="expo-show-exhibit-item">
+                <i data-lucide="check-circle"></i> 5 VIP Passes
+              </div>
+              <div class="expo-show-exhibit-item">
+                <i data-lucide="check-circle"></i> Lunch for 2 (Both Days)
+              </div>
+            </div>
+            <div class="expo-show-calc">
+              <label>Quick Price Calculator</label>
+              <div class="expo-show-calc-row">
+                <input
+                  type="number"
+                  id="sqmInput"
+                  placeholder="Sq. Mtr"
+                  min="1"
+                  oninput="calcGST()"
+                />
+                <span class="expo-show-calc-result" id="calcResult"
+                  >Enter area to calculate</span
+                >
+              </div>
+            </div>
+            <div style="margin-top: 1.5rem; text-align: center">
+              <a
+                href="REPLACE_WITH_EXHIBITOR_FORM_URL"
+                target="_blank"
+                class="expo-show-btn-primary"
+                style="margin-bottom: 1rem"
+                >Book Exhibition Space</a
+              >
+              <p class="expo-show-form-note" style="margin-top: 0.75rem">
+                Radhika Boddu &mdash;
+                <a href="tel:+919867127598">+91 9867127598</a> &middot;
+                <a href="mailto:connectrb76@gmail.com">connectrb76@gmail.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VENUE -->
+      <section class="expo-show-section expo-show-section-alt" id="venue">
+        <div class="expo-show-section-inner">
+          <div class="expo-show-section-title">
+            <h2>Venue &amp; <span>Travel</span></h2>
+          </div>
+          <div class="expo-show-venue-grid">
+            <div class="expo-show-venue-info">
+              <h3>CIRT Campus, Bhosari MIDC<br />Pune, Maharashtra</h3>
+              <div class="expo-show-travel-item">
+                <i data-lucide="plane"></i> From Pune Airport: 25–30 mins
+              </div>
+              <div class="expo-show-travel-item">
+                <i data-lucide="train"></i> From Pune Railway Station: 20–25
+                mins
+              </div>
+              <div class="expo-show-travel-item">
+                <i data-lucide="car"></i> From Mumbai: ~3 hours
+              </div>
+              <div class="expo-show-travel-item">
+                <i data-lucide="parking-circle"></i> Parking available on campus
+              </div>
+            </div>
+            <div class="expo-show-map-embed">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.2!2d73.849!3d18.628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDM3JzQwLjgiTiA3M8KwNTAnNTYuNCJF!5e0!3m2!1sen!2sin!4v1"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTS -->
+      <section class="expo-show-section" id="contact">
+        <div class="expo-show-section-inner">
+          <div class="expo-show-section-title">
+            <h2>Get in <span>Touch</span></h2>
+          </div>
+          <div class="expo-show-contacts-grid">
+            <div class="expo-show-contact-card">
+              <div class="expo-show-contact-label">
+                <i data-lucide="tag"></i> Space Booking &amp; Sponsorship
+              </div>
+              <div class="expo-show-contact-name">Radhika Boddu</div>
+              <div class="expo-show-contact-row">
+                <i data-lucide="phone"></i
+                ><a href="tel:+919867127598">+91 9867127598</a>
+              </div>
+              <div class="expo-show-contact-row">
+                <i data-lucide="mail"></i
+                ><a href="mailto:connectrb76@gmail.com"
+                  >connectrb76@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="expo-show-contact-card">
+              <div class="expo-show-contact-label">
+                <i data-lucide="tag"></i> Delegate Registration
+              </div>
+              <div class="expo-show-contact-name">Vikram Pagare</div>
+              <div class="expo-show-contact-row">
+                <i data-lucide="phone"></i
+                ><a href="tel:+919867275102">+91 9867275102</a>
+              </div>
+              <div class="expo-show-contact-row">
+                <i data-lucide="mail"></i
+                ><a href="mailto:support@cirtindia.com"
+                  >support@cirtindia.com</a
+                >
+              </div>
+            </div>
+            <div class="expo-show-contact-card featured">
+              <div class="expo-show-contact-label">
+                <i data-lucide="star"></i> Convenor
+              </div>
+              <div class="expo-show-contact-name">Faruk Makhdoom</div>
+              <div class="expo-show-contact-role">
+                Head – Automotive Cybersecurity, CIRT
+              </div>
+              <div class="expo-show-contact-row">
+                <i data-lucide="mail"></i
+                ><a href="mailto:support@cirtindia.com"
+                  >support@cirtindia.com</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="expo-show-footer">
+        <div class="expo-show-footer-inner">
+          <div class="expo-show-footer-grid">
+            <div>
+              <img
+                src="https://nextgen-vert.vercel.app/nexgenlogo.png"
+                alt="NexGen Mobility Expo"
+                class="expo-show-footer-logo"
+              />
+              <p class="expo-show-footer-desc">
+                India's Premier B2B Automotive Technology Expo &amp; Conference.
+                24–25 March 2026, CIRT Campus, Bhosari MIDC, Pune, Maharashtra.
+              </p>
+            </div>
+            <div class="expo-show-footer-col">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#focus">Focus Areas</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#exhibit">Exhibit</a></li>
+                <li><a href="#venue">Venue</a></li>
+              </ul>
+            </div>
+            <div class="expo-show-footer-col">
+              <h4>Organised By</h4>
+              <ul>
+                <li>
+                  <a href="https://www.cirtindia.com" target="_blank">CIRT</a>
+                </li>
+                <li><a href="#" target="_blank">THEISTIC</a></li>
+                <li><a href="#" target="_blank">AutoSIFU</a></li>
+                <li><a href="#" target="_blank">WeSpark</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="sums-may-footer-bottom">
+            <div>
+              <p class="sums-may-copyright">
+                Copyright &copy; 2026 CIRT. All rights reserved.
+              </p>
+              <p class="sums-may-footer-dev">
+                NexGen Mobility Expo 2026 &mdash; Organised by CIRT, Pune
+              </p>
+            </div>
+            <div class="sums-may-social-links">
+              <a
+                href="https://www.linkedin.com/company/cirtofficial"
+                class="sums-may-social-icon"
+                aria-label="LinkedIn"
+              >
+                <svg viewBox="0 0 20 20">
+                  <path
+                    d="M17.04 17.043h-2.962v-4.64c0-1.107-.02-2.531-1.544-2.531-1.545 0-1.78 1.204-1.78 2.449v4.722H7.793V7.5h2.844v1.3h.039c.397-.75 1.364-1.54 2.808-1.54 3.001 0 3.556 1.975 3.556 4.546v5.237zM4.447 6.194c-.952 0-1.72-.77-1.72-1.72 0-.95.768-1.72 1.72-1.72.95 0 1.72.77 1.72 1.72 0 .95-.77 1.72-1.72 1.72zm1.48 10.85h-2.96V7.5h2.96v9.543zM18.52 0H1.476C.66 0 0 .645 0 1.44v17.12C0 19.355.66 20 1.476 20h17.04c.815 0 1.484-.645 1.484-1.44V1.44C20 .645 19.335 0 18.516 0h.003z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.instagram.com/cirtofficial"
+                class="sums-may-social-icon"
+                aria-label="Instagram"
+              >
+                <svg viewBox="0 0 20 20">
+                  <path
+                    d="M10 0C7.284 0 6.944.012 5.877.06 4.813.109 4.086.277 3.45.525a4.937 4.937 0 00-1.785 1.162A4.938 4.938 0 00.525 3.472C.277 4.108.109 4.835.06 5.9.012 6.967 0 7.307 0 10.02s.012 3.053.06 4.12c.049 1.064.217 1.791.465 2.427a4.937 4.937 0 001.162 1.785 4.936 4.936 0 001.785 1.162c.636.248 1.363.416 2.427.465 1.067.048 1.407.06 4.12.06s3.053-.012 4.12-.06c1.064-.049 1.791-.217 2.427-.465a4.937 4.937 0 001.785-1.162 4.937 4.937 0 001.162-1.785c.248-.636.416-1.363.465-2.427.048-1.067.06-1.407.06-4.12s-.012-3.053-.06-4.12c-.049-1.064-.217-1.791-.465-2.427a4.937 4.937 0 00-1.162-1.785A4.936 4.936 0 0016.55.525C15.913.277 15.186.109 14.122.06 13.055.012 12.715 0 10.002 0H10zm0 1.802c2.67 0 2.986.01 4.04.058.976.045 1.505.207 1.857.344.467.182.8.398 1.15.748.35.35.566.683.748 1.15.137.352.3.881.344 1.857.048 1.054.058 1.37.058 4.04 0 2.67-.01 2.986-.058 4.04-.045.976-.207 1.505-.344 1.857-.182.467-.398.8-.748 1.15-.35.35-.683.566-1.15.748-.352.137-.881.3-1.857.344-1.054.048-1.37.058-4.04.058-2.67 0-2.986-.01-4.04-.058-.976-.045-1.505-.207-1.857-.344a3.1 3.1 0 01-1.15-.748 3.1 3.1 0 01-.748-1.15c-.137-.352-.3-.881-.344-1.857-.048-1.054-.058-1.37-.058-4.04 0-2.67.01-2.986.058-4.04.045-.976.207-1.505.344-1.857.182-.467.398-.8.748-1.15.35-.35.683-.566 1.15-.748.352-.137.881-.3 1.857-.344 1.054-.048 1.37-.058 4.04-.058zM10 4.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zm0 8.468a3.333 3.333 0 110-6.666 3.333 3.333 0 010 6.666zm6.538-8.671a1.2 1.2 0 11-2.4 0 1.2 1.2 0 012.4 0z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script>
+        // Progress Bar
+        window.addEventListener("scroll", () => {
+          const pct =
+            (window.scrollY /
+              (document.body.scrollHeight - window.innerHeight)) *
+            100;
+          document.getElementById("expoProgressBar").style.width = pct + "%";
+        });
+
+        // Countdown
+        function updateCountdown() {
+          const diff = new Date("2026-03-24T10:00:00") - new Date();
+          if (diff <= 0) {
+            document.getElementById("expoCountdown").innerHTML =
+              '<p style="color:#a78bfa;font-size:1.2rem;font-weight:700;">The Event is Live!</p>';
+            return;
+          }
+          document.getElementById("cdDays").textContent = String(
+            Math.floor(diff / 86400000),
+          ).padStart(2, "0");
+          document.getElementById("cdHours").textContent = String(
+            Math.floor((diff % 86400000) / 3600000),
+          ).padStart(2, "0");
+          document.getElementById("cdMins").textContent = String(
+            Math.floor((diff % 3600000) / 60000),
+          ).padStart(2, "0");
+          document.getElementById("cdSecs").textContent = String(
+            Math.floor((diff % 60000) / 1000),
+          ).padStart(2, "0");
+        }
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
+        // GST Calc
+        function calcGST() {
+          const sqm = parseFloat(document.getElementById("sqmInput").value);
+          const el = document.getElementById("calcResult");
+          if (!sqm || sqm <= 0) {
+            el.textContent = "Enter area to calculate";
+            return;
+          }
+          const base = sqm * 12000,
+            gst = base * 0.18;
+          el.textContent =
+            "Base: ₹" +
+            base.toLocaleString("en-IN") +
+            " + GST: ₹" +
+            Math.round(gst).toLocaleString("en-IN") +
+            " = ₹" +
+            Math.round(base + gst).toLocaleString("en-IN");
+        }
+
+        // Mobile Nav
+        const toggle = document.querySelector(".sums-may-nav-mobile-toggle");
+        const menu = document.querySelector(".sums-may-nav-menu");
+        toggle &&
+          toggle.addEventListener("click", () => {
+            menu.classList.toggle("active");
+            toggle.setAttribute(
+              "aria-expanded",
+              menu.classList.contains("active"),
+            );
+          });
+        document.querySelectorAll(".sums-may-nav-dropdown > a").forEach((a) => {
+          a.addEventListener("click", (e) => {
+            if (window.innerWidth <= 768) {
+              e.preventDefault();
+              a.parentElement.classList.toggle("active");
+            }
+          });
+        });
+
+        // Stats counter animation
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return;
+              const el = entry.target;
+              const raw = parseInt(el.textContent.replace(/[^0-9]/g, ""));
+              const suffix = el.textContent.replace(/[0-9,]/g, "");
+              if (!raw) return;
+              let cur = 0;
+              const step = Math.ceil(raw / 60);
+              const t = setInterval(() => {
+                cur = Math.min(cur + step, raw);
+                el.textContent = cur.toLocaleString("en-IN") + suffix;
+                if (cur >= raw) clearInterval(t);
+              }, 25);
+              observer.unobserve(el);
+            });
+          },
+          { threshold: 0.5 },
+        );
+        document
+          .querySelectorAll(".expo-show-stat-num")
+          .forEach((el) => observer.observe(el));
+
+        // Init Lucide icons
+        lucide.createIcons();
+      </script>
+    </div>
+  </body>
+</html>
